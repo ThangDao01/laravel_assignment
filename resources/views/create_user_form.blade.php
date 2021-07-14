@@ -59,7 +59,7 @@
         @enderror
     </div>
     <button type="submit">Save</button>
-    <a href="/user/create"><button>Reset</button></a>
+   <button type="reset">Reset</button>
     
 </form>
 
