@@ -16,7 +16,7 @@ class UserController
 
     function create(StoreAccountRequest $request)
     {
-        $request->validate();
+        $request->validated();
         $obj = new Account();
         $obj->identityNumber = $request->get('identityNumber');
         $obj->firstName = $request->get('firstName');
